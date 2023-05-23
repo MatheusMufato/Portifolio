@@ -114,7 +114,7 @@ ul{
     top: 20px;
     border-radius: 5px;
     background: var(--bg-black-100);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -129,6 +129,7 @@ ul{
 
 .aside .nav-toggler span::before{
     content: '';
+    height: 2px;
     width: 18px;
     background: var(--skin-color);
     position: absolute;
