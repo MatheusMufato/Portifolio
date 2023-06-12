@@ -825,6 +825,10 @@ h3.my-profession{
     .about .about-content .personal-info{
         flex: 0 0 100%;
         max-width: 100%;
+        
+    }
+    .section.open{
+        left: 0px;
     }
 }
 
